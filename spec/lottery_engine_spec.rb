@@ -1,5 +1,6 @@
 require "lottery_engine"
 describe LotteryEngine do
+  
   describe "#play" do
     it "returns a success message when the user wins" do
       result = Result.new
